@@ -1,0 +1,25 @@
+@import "reset.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "header.css";
+@import "nav-bar.css";
+@import "status-bar.css";
+
+body {
+  background-color: white;
+  /* padding: 10px 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  color: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 2000px;
+}
+
+a {
+  color: inherit; /* 클릭해도 색이 변하지 않음 */
+}
+
+.header {
+  padding-top: 40px;
+}
