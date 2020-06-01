@@ -5,10 +5,13 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
-  border-bottom: 30px;
+  /* border-bottom: 30px; */
   border-color: white;
   border-style: solid;
   background-color: white;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f7f7f7;
+  padding-right: 40px;
 }
 
 .header .header__title {

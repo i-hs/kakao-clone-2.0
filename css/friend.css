@@ -1,5 +1,5 @@
 .friend__friend .friend,
-.friend .friend__friend,
+.friends .friend__friend,
 .find__friend,
 .chats__chat .friend {
   display: flex;
@@ -33,6 +33,7 @@
 .friend__content .friend__name {
   display: block;
   margin-bottom: 5px;
+  font-weight: 600;
 }
 
 .friend__content .friend__status,
@@ -47,4 +48,15 @@
 .friend__content .friend__status,
 .friend .chat__timestamp {
   font-size: 12px;
+}
+
+.friend .friend__now-listening {
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 1px solid #5aad77;
+  font-size: 12px;
+}
+
+.friend__now-listening span {
+  color: #4e4e4e;
 }
