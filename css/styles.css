@@ -1,5 +1,5 @@
 @import "reset.css";
-
+@import "main.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "header.css";
 @import "nav-bar.css";
@@ -22,8 +22,5 @@ body {
 
 a {
   color: inherit; /* 클릭해도 색이 변하지 않음 */
-}
-
-.header {
-  padding-top: 40px;
+  text-decoration: none;
 }
