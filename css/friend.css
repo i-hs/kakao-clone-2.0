@@ -1,7 +1,8 @@
 .friend__friend .friend,
 .friends .friend__friend,
 .find__friend,
-.chats__chat .friend {
+.chats__chat .friend,
+.more .friend__friend {
   display: flex;
   justify-content: space-between;
   align-content: center;

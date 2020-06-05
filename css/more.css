@@ -1,0 +1,76 @@
+.more .more__btn-list {
+  margin: 30px 0px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.more__btn-list .more__btn {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.more__btn .more__btn-title {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.more .more__header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.more .more__suggestions {
+  padding-top: 15px;
+}
+.more .more__title {
+  font-size: 14px;
+  color: #4e4e4e;
+  padding-bottom: 15px;
+}
+
+.more .more__suggestions-list {
+  display: flex;
+  margin: 20px 10px;
+}
+
+.more .more__suggestions .suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.more .suggestion__title {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.more__suggestions .suggestion_icon {
+  background-color: #fce006;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+/* 내가 추가한 부분 */
+#more__header {
+  border-bottom: 12px solid white;
+}
+.more .more__header-space {
+  padding-bottom: 200px;
+}
+
+.more__header .friend__friend {
+  margin-right: 40px;
+}
