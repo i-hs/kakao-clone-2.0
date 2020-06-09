@@ -1,0 +1,19 @@
+.settings .settings__icon {
+  margin-right: 20px;
+}
+
+.settings .settings__setting {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.settings .settings__title {
+  font-weight: 300;
+}
+
+.settings .settings__list {
+  padding-bottom: 30px;
+}
+.settings .settings__list:first-child {
+  border-bottom: #f7f7f7 1px solid;
+}
